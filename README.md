@@ -1,21 +1,20 @@
 ## Kinect Client to IoT Watison IBM Cloud | Bluemix - Hackathon 2017
 
+
+![](https://github.com/vicboma1/StarterKitBluemixHands/blob/master/assets/_starterKitBluemixBodyParts.gif)
+
+
+
 ## Índice
 * [Target](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#target)
-* [Kinect Studio Application Windows](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#kinect-studio-application-windows)
 * [Tree Map](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#tree-map)
+* [Properties](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#properties)
 * [Miscelaneous](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#miscelaneous)
-
 
 
 ## Target
 
 ![](https://github.com/CoEValencia/Hackathon_2017/blob/master/assets/target.png)
-
-
-## Kinect Studio Application Windows
-
-![](https://github.com/vicboma1/StarterKitBluemixHands/blob/master/assets/_starterKitBluemixBodyParts.gif)
 
 ## Tree Map
 
@@ -73,6 +72,22 @@ C:.
 +---Properties
         
 ```
+
+## Properties
+
+Path :  ...\KinectClient\bin\AnyCPU\{ Debug | Release }\Dependencies\Setting.json
+``` json
+{
+        "ORG_ID":"",
+        "DEVICE_ID":"",
+        "DEVICE_TYPE":"",
+        "TOKEN_KEY":"",
+        "EVENT":"",
+        "FORMAT_JSON":"",
+        "AUTH_TOKEN":""
+}
+```
+
 
 ## Miscelaneous
 * [CoEValencia - Hackathon 2017](https://github.com/CoEValencia/Hackathon_2017)
