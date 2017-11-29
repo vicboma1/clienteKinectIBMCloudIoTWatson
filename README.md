@@ -9,6 +9,7 @@
 * [Target](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#target)
 * [Tree Map](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#tree-map)
 * [Properties](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#properties)
+* [Packet](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#packet)
 * [Miscelaneous](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#miscelaneous)
 
 
@@ -75,7 +76,8 @@ C:.
 
 ## Properties
 
-Path :  ...\KinectClient\bin\AnyCPU\{ Debug | Release }\Dependencies\Setting.json
+Path :  ...\KinectClient\bin\AnyCPU\ { Debug | Release }\Dependencies\Setting.json
+
 ``` json
 {
         "ORG_ID":"",
@@ -88,6 +90,70 @@ Path :  ...\KinectClient\bin\AnyCPU\{ Debug | Release }\Dependencies\Setting.jso
 }
 ```
 
+## Packet
+
+```
+{
+	"payload": {
+		"packetID": 0,
+		"user": [{
+				"id": 0,
+				"leftHandState":  {
+                                                        Unknown | NotTracked | Tracked | Open | Close | Lasso
+                                                  },
+				"rightHandState": {
+                                                        Unknown | NotTracked | Tracked | Open | Close | Lasso
+                                                  },
+				"userId": 0,
+				"bodyParts": [{
+						"name": [
+
+							{
+							"SpineBase",
+							"SpineMid",
+							"Neck",
+							"Head",
+							"ShoulderLeft",
+							"ElbowLeft",
+							"WristLeft",
+							"HandLeft",
+							"ShoulderRight",
+							"WristRight",
+							"HandRight",
+							"HipLeft",
+							"KneeLeft",
+							"AnkleLeft",
+							"FootLeft",
+							"HipRight",
+							"KneeRight",
+							"AnkleRight",
+							"FootRight",
+							"SpineShoulder",
+							"HandTipLeft",
+							"ThumbLeft",
+							"HandTipRight",
+							"ThumbRight"
+						}
+					]
+
+					"isPresent": {
+						true | false
+					},
+					"isTracked": {
+						true | false
+					},
+					"positions": [{
+						"x": 0 //float,
+						"y": 0 //float,
+						"z": 0 //float
+					}]
+				},
+
+			]
+		}]
+    }
+}
+```
 
 ## Miscelaneous
 * [CoEValencia - Hackathon 2017](https://github.com/CoEValencia/Hackathon_2017)
