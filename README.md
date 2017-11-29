@@ -4,7 +4,6 @@
 * [Target](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#target)
 * [Kinect Studio Application Windows](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#kinect-studio-application-windows)
 * [Tree Map](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#tree-map)
-   * [IBMWIoTP](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#IBMWIoTP)
 * [Miscelaneous](https://github.com/vicboma1/clienteKinectIBMCloudIoTWatson/blob/master/README.md#miscelaneous)
 
 
@@ -42,7 +41,7 @@ C:.
 |                       
 +---IBM
 |   +---IoT
-|           IoTConnection.cs
+|           IoTConnection.cs -- (IBMWIoTP)
 |           IoTConnectionQueue.cs
 |           
 +---Images
@@ -74,10 +73,9 @@ C:.
 +---Properties
         
 ```
-## IBWM IoT
 
 ## Miscelaneous
+* [CoEValencia - Hackathon 2017](https://github.com/CoEValencia/Hackathon_2017)
+
 
 @Author: [Victor Bolinches Marin](https://github.com/vicboma1)  
-
-@Documento Principal  [CoEValencia - Hackathon 2017](https://github.com/CoEValencia/Hackathon_2017)
