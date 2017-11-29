@@ -156,7 +156,7 @@ Path :  ...\KinectClient\bin\AnyCPU\ { Debug | Release }\Dependencies\Setting.js
 ```
 
 ## Miscelaneous
-* [CoEValencia - Hackathon 2017](https://github.com/CoEValencia/Hackathon_2017)
+* [CoEValencia - Hackathon 2017](https://goo.gl/vmuVXH)
 
 
 @Author: [Victor Bolinches Marin](https://github.com/vicboma1)  
